@@ -46,6 +46,12 @@ public class ProductServiceController {
 		beer.setId("4");
 		beer.setName("Beer");
 		productRepo.put(beer.getId(), beer);
+		
+		Product wine = new Product();
+		wine.setId("5");
+		wine.setName("Wine");
+		productRepo.put(wine.getId(), wine);
+
 	}
 
 	@RequestMapping(value = "/products/{id}", method = RequestMethod.DELETE)
