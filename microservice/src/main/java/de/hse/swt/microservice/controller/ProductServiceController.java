@@ -39,7 +39,7 @@ public class ProductServiceController {
 		
 		Product steak = new Product();
 		steak.setId("3");
-		steak.setName("Steakeak");
+		steak.setName("Steak");
 		productRepo.put(steak.getId(), steak);
 		
 		Product beer = new Product();
