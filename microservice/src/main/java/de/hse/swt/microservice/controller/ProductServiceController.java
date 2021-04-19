@@ -46,6 +46,11 @@ public class ProductServiceController {
 		wine.setId("5");
 		wine.setName("Wine");
 		productRepo.put(wine.getId(), wine);
+		
+		Product monitor = new Product();
+		monitor.setId("6");
+		monitor.setName("Monitor");
+		productRepo.put(monitor.getId(), monitor);
 
 	}
 
