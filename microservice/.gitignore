@@ -31,3 +31,6 @@ build/
 
 ### VS Code ###
 .vscode/
+/ProductMSLog.log
+/ProductMSLog-2021-04-16.0.log
+/ProductMSLog-2021-04-14.0.log
