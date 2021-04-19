@@ -52,15 +52,15 @@ public class ProductServiceController {
 		monitor.setName("Monitor");
 		productRepo.put(monitor.getId(), monitor);
 		
-		Product aim-lecture = new Product();
-		monitor.setId("7");
-		monitor.setName("AIM-Lecture");
-		productRepo.put(aim-lecture.getId(), aim-lecture);
+		Product aim_lecture = new Product();
+		aim_lecture.setId("7");
+		aim_lecture.setName("AIM-Lecture");
+		productRepo.put(aim_lecture.getId(), aim_lecture);
 		
-		Product corona-test = new Product();
-		monitor.setId("8");
-		monitor.setName("Corona-Test");
-		productRepo.put(corona-test.getId(), corona-test);
+		Product corona_test = new Product();
+		corona_test.setId("8");
+		corona_test.setName("Corona-Test");
+		productRepo.put(corona_test.getId(), corona_test);
 
 	}
 
