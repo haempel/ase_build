@@ -51,6 +51,16 @@ public class ProductServiceController {
 		monitor.setId("6");
 		monitor.setName("Monitor");
 		productRepo.put(monitor.getId(), monitor);
+		
+		Product aim-lecture = new Product();
+		monitor.setId("7");
+		monitor.setName("AIM-Lecture");
+		productRepo.put(aim-lecture.getId(), aim-lecture);
+		
+		Product corona-test = new Product();
+		monitor.setId("8");
+		monitor.setName("Corona-Test");
+		productRepo.put(corona-test.getId(), corona-test);
 
 	}
 
