@@ -52,6 +52,7 @@ public class ProductServiceController {
 		monitor.setName("Monitor");
 		productRepo.put(monitor.getId(), monitor);
 		
+		
 		Product aim-lecture = new Product();
 		monitor.setId("7");
 		monitor.setName("AIM-Lecture");
